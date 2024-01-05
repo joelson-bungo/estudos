@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background-color: #e4f2e4;
+width: 100%;
+}
+
+header{
+    
+    min-height: 150px;
+    font-size: 19px;
+    font-weight: bold;
+    width: auto;
+    padding-top: 40px;
+    background-image:linear-gradient(to top,#afccd1,#dde9ec) ;
+    text-shadow:-1px 3px 6px rgb(0 0 0 / 32%);
+}
+/* está estelizando a logo emalengue academia */
+header > h1{
+   
+    padding: 10px 8px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2f2c2c;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.383);
+    font-weight: bold;
+    font-size: 2.7em;
+}
+/* estilizando o paragrafo do header */
+header > p{
+    color: #1a4d31;
+    font-family: var(--font-bebas);
+    font-size: 22px;
+    text-align: center;
+}
+
+header > p:hover{
+    color: #2cb841;
+    transition: 0.5s;
+    
+}
+
+nav{
+    margin: 82px 0px 0px 0px; 
+    cursor: pointer;
+    width: auto;
+    padding-left: 4px;
+
+} 
+nav > a{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 18px;
+    font-size: 1em;
+    max-width: 500px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+    margin: auto;
+    
+}
+ nav > a:hover{
+color:#fff;
+cursor: pointer;
+border:2px;
+border-radius: 20px;
+background-color: #280dc1;
+margin-left: 32px;
+transition: .5s;
+max-width: 500px;
+margin: auto;
+
+ }
+
+/* está classe está estelizando os opcoes da nav propriamente o login e cadastrar-se  */
+.border{
+  border: 1px;  
+  background-color: #2b1d79;  
+  color: #f4f8f8;
+
+}
+.border:hover{
+    color: #280dc1;
+    background-color: #fff;
+transition: 0.7s;
+}
+
+
+
+main{
+    max-width: auto;
+    min-width:320px ;
+}
+/* todos os paragrafos que estão dentro do main */
+main p{
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.2em;
+    font-size: 1.1em;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.274);
+}
+ img{
+    max-height: 405px;
+    margin:auto;
+    padding: 10px 20px 0;  
+    max-width: 100%;
+   
+    
+}
+/* classe img que estiliza a imagem */
+.imag{
+margin: auto;
+box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.274);
+align-content: end;
+}
+
+
+main strong{
+    color: var(--cor8);
+    font-weight: bold;
+    padding: 2px 8px;
+}
+
+main  a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.2em;
+    background-color: #280dc1;
+    padding: 1px 6px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+}
+main a:hover{
+    color: #2b1d79;
+    background-color: var(--cor1);
+    text-decoration:underline;
+    padding: 1px 6px;
+}
+
+/* esta estlizando o menu nav a */
+.head{
+    background-color: var(--cor1);
+    text-align: center;
+    font-size: 1.3 em;
+    margin-top:6px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.274);
+    
+}
+/* estlizando o h2 que são os subtitulos */
+  .head:hover {
+    color: #fdfeff;
+    background-color: #2b1d79;
+    cursor: pointer;
+    text-align: center;
+    margin-top:6px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.274);
+
+ }
+
+ main > h1{
+    text-align: center;
+    font-family: var(--font-bebas);
+   
+ }
+
+ .sessao3{
+    margin: 10px 0px;
+    max-height: 600px;
+}
+
+aside {
+background-color: #2cb841;
+padding: 10px;
+color: #ddd;
+border-radius: 10px;
+box-shadow: 3px 3px 8px #0000004f;
+margin: 2px 4px;
+
+text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.274);
+}
+    
+aside > h3{
+padding: 5px;
+margin: -10px -10px 0px -10px;
+background-color: #1a3928;
+border-radius:10px 10px 0px 0px ;
+text-align: center;
+text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.274);
+}
+
+aside > h3:hover{
+background-color: #060303;
+color: var(--cor2);
+}
+aside > ul{
+    padding: 0px 8px;
+    line-height: 1.3em;
+    list-style-position: inside;
+    columns:2;
+}
+
+aside li{
+    font-size: 18px;
+    cursor: pointer;
+}
+aside li:hover{
+color: var(--cor2);
+background-color: var(--cor5);
+
+}
+aside > p{
+    text-align: center;
+    font-size: 1em;
+}
+footer{
+    background-color: var(--cor2);
+    margin: auto;
+    padding: 7px 7px 2px 7px;
+    text-align: center;
+    font-family: var(--font-bebas);
+    
+
+}
+footer > p{
+    color:var(--cor4);
+    margin-bottom: 6px;
+}
+footer > p:hover{
+    color: var(--cor1);
+}
+footer  a{
+color:var(--cor1);
+padding:6px ;
+margin: 2px 8px 0px ;
+text-decoration: none;
+text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.274);
+font-size: 1.3em;
+}
+
+footer a:hover{
+    color: var(--cor3);
+    text-decoration: underline;
+    transition: .3s;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.274);
+}
+
+:root {
+    --cor1:#c5ebd6;
+    --cor2:#2cb841;
+    --cor3:#1a4d31;
+    --cor4:#1a3928;
+    --cor5:#08110c;
+    --cor6:#eefafc;
+    --cor7:#7996e4;
+    --cor8:#141483;
+    --cor9:#291f65;
+   --font-padrao:arial,Helvetica,sans-serif;
+   --font-bebas:font-family: 'Bebas Neue', sans-serif;
+
+}
+

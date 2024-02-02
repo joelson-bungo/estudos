@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+
+header{
+background-color: skyblue;
+height: 160px;
+width: auto;
+margin-left: 8px;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 47px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+nav{
+    background-color: #ddd;
+    padding: 5px;
+    margin-top: 80px;
+    padding-left: 100px;
+    width: auto;
+}
+
+li{
+padding: 2px 3px 0px;
+display: inline;
+margin-left: 140px;
+
+}
+
+a{
+  padding: 2px;  
+  text-decoration: none;
+}

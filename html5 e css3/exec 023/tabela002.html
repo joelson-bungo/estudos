@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela002</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption{
+font-size: 1.5 em;
+font-weight: bold;
+padding: 10px;
+background-color: lightgray;
+}
+
+tbody >tr:nth-child(2n-1){
+    background-color: lightgray;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+thead, tfoot{
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+}
+
+
+    </style>
+ </head>
+ <body>
+    <h1>uso de tabelas grandes</h1>
+
+    <table>
+
+        <caption>população da unidades estados federados</caption>
+        <thead>
+             <th scope="col">estado</th>
+            <th scope="col" style="width: 50px;">população</th>  
+        </thead>
+        
+    <tbody>
+        <tr>
+            <td>são paulo</td>
+            <td>45.545.678</td> 
+        </tr>
+    <tr>
+        <td>rio grande do sul</td>
+        <td>34.345.345</td>
+    </tr>
+
+    <tr>
+        <td>brazilia</td>
+        <td>12.456.234</td>
+    </tr>
+
+    <tr>
+        <td>bh</td>
+        <td>13.456.456</td>
+    </tr>
+
+    <tr>
+        <td>bahia</td>
+        <td>17.456.456</td>
+    </tr>
+
+    <tr>
+        <td>rio de janeiro</td>
+        <td>15.456.456</td>
+    </tr>
+
+    <tr>
+        <td>perna mbuco</td>
+        <td>8.456.456</td>
+    </tr>
+    <tr>
+        <td>minas gerais</td>
+        <td>13.456.456</td>
+    </tr>
+    <tr>
+        <td>tondela</td>
+        <td>7.456.456</td>
+    </tr>
+    <tr>
+        <td>bota fogo</td>
+        <td>5.456.456</td>
+    </tr>
+
+    <tr>
+        <td>viana</td>
+        <td>9.456.456</td>
+    </tr>
+    
+    <tr>
+        <td>barneia</td>
+        <td>6.456.456</td>
+    </tr>
+
+    <tr>
+        <td>cazenga</td>
+        <td>3.456.456</td>
+    </tr>
+    <tr>
+        <td>esmeralda</td>
+        <td>5.456.456</td>
+    </tr>
+    <tr>
+        <td>bela horizonte</td>
+        <td>2.456.456</td>
+    </tr>
+    <tr>
+        <td>super nova</td>
+        <td>11.456.456</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>  
+            <th scope="row">nome de estado</th>
+            <td>valor</td>
+        </tr>
+
+    </tfoot>
+    </table>
+ </body>
+ </html>

@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mesclagem de tabelas</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+table{
+border-collapse:collapse ;
+width: 300px;
+text-align: center;
+
+}
+
+tr > td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+td.cor{
+    background-color: #808080;
+}
+td.cor1{
+    background-color: aqua;
+}
+td.cor3{
+    background-color: #c4c45b;
+}
+
+    </style>
+ </head>
+ <body>
+   <h1>mesclagem de celulas</h1> 
+
+   <table>
+    <!-- primeira linha -->
+<tr>
+<td class="cor">a</td>
+<td colspan="2" class="cor3">b</td>
+<td class="cor3">o</td>
+</tr>
+
+<!-- segunda linha -->
+<tr>
+<td rowspan="2" class="cor1">d</td>
+<td class="cor1">e</td>
+<td class="cor">f</td>
+<td rowspan="2" class="cor1">s</td>
+
+</tr>
+<!-- terceira linha -->
+<tr>
+<td colspan="2" class="cor3">h</td>
+
+
+
+</tr>
+<!-- quarta linha -->
+<tr>
+<td class="cor3">g</td>
+<td class="cor1">k</td>
+<td colspan="2" class="cor">j</td>
+</tr>
+   </table>
+ </body>
+ </html>

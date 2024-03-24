@@ -14,8 +14,14 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
+thead > tr > th{
+    position: sticky;
+    top:0;
+    background-color: #808080;
+} 
 caption{
 font-size: 1.5 em;
 font-weight: bold;
@@ -35,7 +41,7 @@ td, th{
 }
 
 thead, tfoot{
-    background-color: grey;
+    background-color: #808080;
     color: #fff;
     text-align: center;
 }
@@ -127,6 +133,26 @@ thead, tfoot{
         <td>super nova</td>
         <td>11.456.456</td>
     </tr>
+
+    <tr>
+        <td>super nova</td>
+        <td>11.456.456</td>
+    </tr>
+
+    <tr>
+        <td>super nova</td>
+        <td>11.456.456</td>
+    </tr>
+
+    <tr>
+        <td>super nova</td>
+        <td>11.456.456</td>
+    </tr>
+
+    <tr>
+        <td>super nova</td>
+        <td>11.456.456</td>
+    </tr>
     </tbody>
 
     <tfoot>
@@ -137,5 +163,7 @@ thead, tfoot{
 
     </tfoot>
     </table>
+
+   
  </body>
  </html>
